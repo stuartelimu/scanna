@@ -37,7 +37,7 @@ export default class App extends Component {
 
   removeImage = id => {
     this.setState({
-      images: this.state.images.filter(image => images.public_id !== id)
+      images: this.state.images.filter(image => image.public_id !== id)
     })
   }
 
